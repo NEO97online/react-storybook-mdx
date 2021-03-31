@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Create React App + Storybook + MDX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), integrated with [Storybook](https://storybook.js.org) using MDX.
+
+View the Storybook demo here: https://react-storybook-mdx.netlify.app/
 
 ## Available Scripts
 
