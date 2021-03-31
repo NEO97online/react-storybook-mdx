@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import './Button.css';
 
 export const Button = ({ variant = "none", children, onClick }) => {
   return (
