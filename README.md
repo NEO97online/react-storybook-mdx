@@ -14,6 +14,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `yarn storybook`
+
+Starts the [Storybook](https://storybook.js.org) dev server locally on [http://localhost:6006](http://localhost:6006).
+
+### `yarn build-storybook`
+
+Builds a static production-ready [Storybook](https://storybook.js.org), saved to /storybook-static.
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
