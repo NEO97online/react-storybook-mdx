@@ -1,0 +1,27 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import { Button } from './Button';
+
+<Meta
+  title="Button"
+  component={Button}
+  argTypes={{
+    variant: {
+      control: {
+        type: 'radio',
+        options: ['primary', 'secondary', 'danger', 'none']
+      }
+    }
+  }}
+/>
+
+# Button
+
+A standard clickable Button component.
+
+export const Template = (args) => <Button {...args} />
+
+<Canvas>
+  <Story name="plain" args={{ variant: "none", children: "Click Me" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
